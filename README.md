@@ -7,6 +7,7 @@ Analisando o processo sugeri a criação de um App utilizando o AppSheets uma op
 O aplicativo oferece diversas funcionalidades.
 
 Ao clicar em mais é possivel adicionar outro check - list
+
 ![image](https://github.com/user-attachments/assets/82aed78e-bdc5-4cd0-bf42-2539ecd6a76b)
 
 
