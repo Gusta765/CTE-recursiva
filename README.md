@@ -1,27 +1,21 @@
-# APP Inspeção Veicular
-Aplicativo faz um Check - List do veículo
+📦 CTE Recursiva para Análise de Valor de Estoque nos Últimos 12 Meses
+Este projeto demonstra o uso de uma CTE Recursiva (Common Table Expression) no SQL Server para realizar a análise do valor do estoque ao final de cada um dos últimos 12 meses.
 
-A empresa sofria com o processo manual de Inspeção veícular, o processo era preenchido em folha de papel pelo motorista e depois um analista repassava as informações para o excel.
-Analisando o processo sugeri a criação de um App utilizando o AppSheets uma opção barata e rapida de ser construida.
+🧠 O que é uma CTE Recursiva?
+Uma CTE Recursiva permite criar um conjunto de dados que se autoalimenta — ideal para gerar sequências, estruturas hierárquicas ou, neste caso, uma lista de períodos mensais.
+Ela é composta por duas partes:
 
-O aplicativo oferece diversas funcionalidades.
+Anchor Member (ponto de partida)
 
-Ao clicar em mais é possivel adicionar outro check - list
+Recursive Member (a repetição incremental)
 
-![image](https://github.com/user-attachments/assets/82aed78e-bdc5-4cd0-bf42-2539ecd6a76b)
+🎯 Objetivo
+Calcular o valor total do estoque ao último dia de cada um dos últimos 12 meses, usando:
 
+A função EOMONTH para obter o último dia do mês
 
-Coloque as informações do veículo do motorista e também quais os defeitos do caminhão (se tiver)
+Uma CTE recursiva para gerar os períodos automaticamente
 
-![image](https://github.com/user-attachments/assets/aa6c70f1-0f67-486c-83f3-ed47336d262e)
+Junção com a tabela de estoque real
 
-
-Feito isso é só salvar
-Assim pode ser facilmente identificado qual caminhão está com defeito qual o defeito do veículo em tempo real.
-Depois que o serviço for realizado basta excluir a notificação.
-
-Para abrir no navegador:
-https://www.appsheet.com/start/adad0c89-0fb6-42d8-9f95-543c34a93df7
-
-Para abrir no Celular:
-https://www.appsheet.com/newshortcut/adad0c89-0fb6-42d8-9f95-543c34a93df7
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-barbosa-868976236/) [![Email](https://img.shields.io/badge/Email-gustavobarbosa7744@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gustavobarbosa7744@gmail.com)
